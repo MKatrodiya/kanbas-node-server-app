@@ -2,7 +2,6 @@ import mongoose from "mongoose";
 import model from "./model.js";
 export const createUser = (user) => {
   delete user._id;
-  // user._id = new mongoose.Types.ObjectId();
   return model.create(user);
 };
 export const findAllUsers = () => model.find();
@@ -14,3 +13,4 @@ export const findUserByCredentials = (username, password) =>
 export const updateUser = (userId, user) =>
   model.updateOne({ _id: userId }, { $set: user });
 export const deleteUser = (userId) => model.deleteOne({ _id: userId });
+export const findUsersByRole = (role) => model.find({ role: role });
