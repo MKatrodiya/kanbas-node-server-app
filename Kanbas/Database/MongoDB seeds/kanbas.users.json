@@ -1,0 +1,218 @@
+[{
+  "_id": {
+    "$oid": "6622884ac5c532e758667722"
+  },
+  "id": "121",
+  "username": "iron_mann",
+  "password": "1234",
+  "firstName": "Tony I.",
+  "lastName": "Starkk",
+  "email": "tony@stark.com",
+  "dob": {
+    "$date": "1970-05-29T00:00:00.000Z"
+  },
+  "role": "USER"
+},
+{
+  "_id": {
+    "$oid": "6622884ac5c532e758667723"
+  },
+  "id": "122",
+  "username": "dark_knightt",
+  "password": "wayne123",
+  "firstName": "Bruce M.",
+  "lastName": "Wayne",
+  "email": "bruce.m@wayne.com",
+  "dob": {
+    "$date": "1972-02-26T00:00:00.000Z"
+  },
+  "role": "FACULTY"
+},
+{
+  "_id": {
+    "$oid": "6622884ac5c532e758667724"
+  },
+  "id": "123",
+  "username": "capt_america",
+  "password": "rogers123",
+  "firstName": "Steve",
+  "lastName": "Rogers",
+  "email": "steve@avengers.com",
+  "dob": "1918-07-04",
+  "role": "STUDENT"
+},
+{
+  "_id": {
+    "$oid": "6622884ac5c532e758667725"
+  },
+  "id": "124",
+  "username": "black_widow",
+  "password": "romanoff123",
+  "firstName": "Natasha",
+  "lastName": "Romanoff",
+  "email": "natasha@avengers.com",
+  "dob": "1984-11-22",
+  "role": "STUDENT"
+},
+{
+  "_id": {
+    "$oid": "6622884ac5c532e758667726"
+  },
+  "id": "125",
+  "username": "thor_odinson",
+  "password": "mjolnir123",
+  "firstName": "Thor",
+  "lastName": "Odinson",
+  "email": "thor@asgard.com",
+  "dob": "982-05-25",
+  "role": "STUDENT"
+},
+{
+  "_id": {
+    "$oid": "6622884ac5c532e758667727"
+  },
+  "id": "126",
+  "username": "hulk_smash",
+  "password": "banner123",
+  "firstName": "Bruce",
+  "lastName": "Banner",
+  "email": "bruce@avengers.com",
+  "dob": "1969-12-18",
+  "role": "STUDENT"
+},
+{
+  "_id": {
+    "$oid": "6622884ac5c532e758667728"
+  },
+  "id": "131",
+  "username": "ring_bearer",
+  "password": "shire123",
+  "firstName": "Frodo",
+  "lastName": "Baggins",
+  "email": "frodo@shire.com",
+  "dob": "1368-09-22",
+  "role": "FACULTY"
+},
+{
+  "_id": {
+    "$oid": "6622884ac5c532e758667729"
+  },
+  "id": "132",
+  "username": "strider",
+  "password": "aragorn123",
+  "firstName": "Aragorn",
+  "lastName": "Elessar",
+  "email": "aragorn@gondor.com",
+  "dob": "2931-03-01",
+  "role": "FACULTY"
+},
+{
+  "_id": {
+    "$oid": "6622884ac5c532e75866772a"
+  },
+  "id": "133",
+  "username": "elf_archer",
+  "password": "legolas123",
+  "firstName": "Legolas",
+  "lastName": "Greenleaf",
+  "email": "legolas@mirkwood.com",
+  "dob": "2879-07-15",
+  "role": "FACULTY"
+},
+{
+  "_id": {
+    "$oid": "6622884ac5c532e75866772c"
+  },
+  "id": "127",
+  "username": "king_of_gondor",
+  "password": "denethor123",
+  "firstName": "Denethor",
+  "lastName": "II",
+  "email": "kingodgondor@gmail.com",
+  "dob": "2930-03-01",
+  "role": "STUDENT"
+},
+{
+  "_id": {
+    "$oid": "6622884ac5c532e75866772d"
+  },
+  "id": "128",
+  "username": "queen_of_gondor",
+  "password": "finduilas123",
+  "firstName": "Finduilas",
+  "lastName": "of Dol Amroth",
+  "email": "queenofgondor@yahoo.org",
+  "dob": "2930-06-01",
+  "role": "STUDENT"
+},
+{
+  "_id": {
+    "$oid": "6622884ac5c532e75866772e"
+  },
+  "id": "129",
+  "username": "prince_of_gondor",
+  "password": "aragorn123",
+  "firstName": "Boromir",
+  "lastName": "of Gondor",
+  "email": "princeofgondor@outlook.com",
+  "dob": "2978-03-01",
+  "role": "STUDENT"
+},
+{
+  "_id": {
+    "$oid": "6622884ac5c532e75866772f"
+  },
+  "id": "130",
+  "username": "prince_of_rohan",
+  "password": "theodred123",
+  "firstName": "Theodred",
+  "lastName": "of Rohan",
+  "email": "princeofrohan@gmail.com",
+  "dob": "1989-03-01",
+  "role": "STUDENT"
+},
+{
+  "_id": {
+    "$oid": "66228cb30dd65860b91e6f68"
+  },
+  "username": "tester",
+  "password": "test",
+  "firstName": "Test",
+  "lastName": "User",
+  "role": "USER",
+  "__v": 0,
+  "dob": {
+    "$date": "2024-04-20T00:00:00.000Z"
+  },
+  "email": "test@test.com"
+},
+{
+  "_id": {
+    "$oid": "6622a121c585cc5f66a5c6f9"
+  },
+  "username": "testuser",
+  "password": "1234",
+  "role": "STUDENT",
+  "__v": 0,
+  "dob": {
+    "$date": "2024-04-26T00:00:00.000Z"
+  },
+  "email": "test@gmail.com",
+  "firstName": "Testt",
+  "lastName": "Userrrrrr"
+},
+{
+  "_id": {
+    "$oid": "6622a29ed45c7e012d8e9152"
+  },
+  "username": "test34",
+  "password": "12345",
+  "role": "ADMIN",
+  "__v": 0,
+  "firstName": "huu",
+  "dob": {
+    "$date": "2024-04-20T00:00:00.000Z"
+  },
+  "email": "gyh@bhebh.com",
+  "lastName": "huu"
+}]
