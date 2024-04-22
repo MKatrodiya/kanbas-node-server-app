@@ -15,6 +15,7 @@ const quizzSchema = new mongoose.Schema(
     },
     course: { type: mongoose.Schema.Types.ObjectId, ref: "courses" },
     points: Number,
+    description: String,
     dueDate: Date,
     availableDate: Date,
     availableUntil: Date,

@@ -23,7 +23,14 @@ export default function (app) {
     res.json(quiz);
   };
 
+  const updateQuiz = async (req, res) => {
+    const { quizId } = req.params;
+    const status = await dao.updateQuiz(quizId, req.body);
+    res.json(status);
+  };
+
   app.post("/api/courses/:courseId/quizzes", createQuiz);
   app.get("/api/courses/:courseId/quizzes", findAllQuizzes);
   app.get("/api/quizzes/:quizId", findQuizById);
+  app.put("/api/quizzes/:quizId", updateQuiz);
 }
