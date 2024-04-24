@@ -29,8 +29,16 @@ export default function (app) {
     res.json(status);
   };
 
+  const deleteQuiz = async (req, res) => {
+    const { quizId } = req.params;
+    // console.log(quizId);
+    const status = await dao.deleteQuiz(quizId);
+    res.json(status);
+  };
+
   app.post("/api/courses/:courseId/quizzes", createQuiz);
   app.get("/api/courses/:courseId/quizzes", findAllQuizzes);
   app.get("/api/quizzes/:quizId", findQuizById);
   app.put("/api/quizzes/:quizId", updateQuiz);
+  app.delete("/api/quizzes/:quizId", deleteQuiz);
 }
