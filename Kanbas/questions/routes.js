@@ -29,8 +29,15 @@ export default function (app) {
     res.json(status);
   };
 
+  const bulkCreateQuestions = async (req, res) => {
+    const { quizId } = req.params;
+    const questions = await dao.bulkCreateQuestions(quizId, req.body);
+    res.json(questions);
+  };
+
   app.post("/api/quizzes/:quizId/questions", createQuestion);
   app.get("/api/quizzes/:quizId/questions", findAllQuestions);
   app.get("/api/questions/:questionId", findQuestionById);
   app.put("/api/questions/:questionId", updateQuestion);
+  app.put("/api/quizzes/:quizId/questions/bulk", bulkCreateQuestions);
 }
