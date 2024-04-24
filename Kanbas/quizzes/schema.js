@@ -14,6 +14,7 @@ const quizzSchema = new mongoose.Schema(
       default: "Graded Quiz",
     },
     course: { type: mongoose.Schema.Types.ObjectId, ref: "courses" },
+    questions: [{ type: mongoose.Schema.Types.ObjectId, ref: "questions" }],
     points: Number,
     description: String,
     dueDate: Date,
