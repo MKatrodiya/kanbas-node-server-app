@@ -20,6 +20,10 @@ export default function (app) {
   const findQuizById = async (req, res) => {
     const { quizId } = req.params;
     const quiz = await dao.findQuizById(quizId);
+    if (!quiz) {
+      res.status(404).json("Quiz not found");
+      return;
+    }
     res.json(quiz);
   };
 

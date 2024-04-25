@@ -1,120 +1,90 @@
-[{
-  "_id": {
-    "$oid": "6622edf1c5c532e75866776b"
+[
+  {
+    "_id": {
+      "$oid": "6622edf1c5c532e75866776b"
+    },
+    "name": "Web development",
+    "number": "CS5610",
+    "startDate": "2024-01-08",
+    "endDate": "2024-04-29",
+    "semester": "Spring 2024",
+    "image": "reactjs.jpg"
   },
-  "name": "Web development",
-  "number": "CS5610",
-  "startDate": "2024-01-08",
-  "endDate": "2024-04-29",
-  "semester": "Spring 2024",
-  "image": "reactjs.jpg"
-},
-{
-  "_id": {
-    "$oid": "6622edf1c5c532e75866776c"
+  {
+    "_id": {
+      "$oid": "6622edf1c5c532e75866776c"
+    },
+    "name": "Programming Design Paradigm",
+    "number": "CS5010",
+    "startDate": "2023-09-08",
+    "endDate": "2023-12-15",
+    "semester": "Fall 2023",
+    "image": "java_logo.png"
   },
-  "name": "Programming Design Paradigm",
-  "number": "CS5010",
-  "startDate": "2023-09-08",
-  "endDate": "2023-12-15",
-  "semester": "Fall 2023",
-  "image": "java_logo.png"
-},
-{
-  "_id": {
-    "$oid": "6622edf1c5c532e75866776d"
+  {
+    "_id": {
+      "$oid": "6622edf1c5c532e75866776d"
+    },
+    "name": "Algortihms",
+    "number": "CS5800",
+    "startDate": "2024-01-08",
+    "endDate": "2024-04-29",
+    "semester": "Spring 2024",
+    "image": "algorithm.jpg"
   },
-  "name": "Algortihms",
-  "number": "CS5800",
-  "startDate": "2024-01-08",
-  "endDate": "2024-04-29",
-  "semester": "Spring 2024",
-  "image": "algorithm.jpg"
-},
-{
-  "_id": {
-    "$oid": "6622edf1c5c532e75866776e"
+  {
+    "_id": {
+      "$oid": "6622edf1c5c532e75866776e"
+    },
+    "name": "Information Retrieval",
+    "number": "CS6200",
+    "startDate": "2023-09-09",
+    "endDate": "2023-12-16",
+    "semester": "Fall 2023",
+    "image": "ir.jpg"
   },
-  "name": "Information Retrieval",
-  "number": "CS6200",
-  "startDate": "2023-09-09",
-  "endDate": "2023-12-16",
-  "semester": "Fall 2023",
-  "image": "ir.jpg"
-},
-{
-  "_id": {
-    "$oid": "6622edf1c5c532e75866776f"
+  {
+    "_id": {
+      "$oid": "6622edf1c5c532e75866776f"
+    },
+    "name": "Database Management Systems",
+    "number": "CS5200",
+    "startDate": "2024-01-08",
+    "endDate": "2024-04-29",
+    "semester": "Spring 2024",
+    "image": "database.jpg"
   },
-  "name": "Database Management Systems",
-  "number": "CS5200",
-  "startDate": "2024-01-08",
-  "endDate": "2024-04-29",
-  "semester": "Spring 2024",
-  "image": "database.jpg"
-},
-{
-  "_id": {
-    "$oid": "6622edf1c5c532e758667770"
+  {
+    "_id": {
+      "$oid": "6622edf1c5c532e758667770"
+    },
+    "name": "Computer Systems",
+    "number": "CS5410",
+    "startDate": "2024-01-08",
+    "endDate": "2024-04-29",
+    "semester": "Spring 2024",
+    "image": "cs.jpg"
   },
-  "name": "Computer Systems",
-  "number": "CS5410",
-  "startDate": "2024-01-08",
-  "endDate": "2024-04-29",
-  "semester": "Spring 2024",
-  "image": "cs.jpg"
-},
-{
-  "_id": {
-    "$oid": "6622edf1c5c532e758667771"
+  {
+    "_id": {
+      "$oid": "6622edf1c5c532e758667771"
+    },
+    "name": "Data Mining",
+    "number": "CS6900",
+    "startDate": "2024-01-08",
+    "endDate": "2024-04-29",
+    "semester": "Spring 2024",
+    "image": "data_mining.jpg"
   },
-  "name": "Data Mining",
-  "number": "CS6900",
-  "startDate": "2024-01-08",
-  "endDate": "2024-04-29",
-  "semester": "Spring 2024",
-  "image": "data_mining.jpg"
-},
-{
-  "_id": {
-    "$oid": "6622edf1c5c532e758667772"
-  },
-  "name": "Machine Learning",
-  "number": "CS6100",
-  "startDate": "2024-01-08",
-  "endDate": "2024-04-29",
-  "semester": "Spring 2024",
-  "image": "ml.jpg"
-},
-{
-  "_id": {
-    "$oid": "6622fe5c8594a07d4c85375a"
-  },
-  "name": "New Course",
-  "number": "New Number",
-  "startDate": {
-    "$date": "2023-09-10T00:00:00.000Z"
-  },
-  "endDate": {
-    "$date": "2023-12-15T00:00:00.000Z"
-  },
-  "semester": "Fall 2024",
-  "image": "reactjs.jpg",
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "6623401e93b403af19f9504f"
-  },
-  "name": "Testing Course changed",
-  "number": "CS1013",
-  "startDate": {
-    "$date": "2023-09-10T00:00:00.000Z"
-  },
-  "endDate": {
-    "$date": "2023-12-15T00:00:00.000Z"
-  },
-  "semester": "Fall 2024",
-  "image": "reactjs.jpg",
-  "__v": 0
-}]
+  {
+    "_id": {
+      "$oid": "6622edf1c5c532e758667772"
+    },
+    "name": "Machine Learning",
+    "number": "CS6100",
+    "startDate": "2024-01-08",
+    "endDate": "2024-04-29",
+    "semester": "Spring 2024",
+    "image": "ml.jpg"
+  }
+]
