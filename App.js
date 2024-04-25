@@ -44,6 +44,7 @@ ModuleRoutes(app);
 QuizzesRoutes(app);
 QuestionsRoutes(app);
 AssignmentRoutes(app);
+AnswersRoutes(app);
 UserRoutes(app);
 
 Hello(app);
