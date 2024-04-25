@@ -9,12 +9,12 @@ import CourseRoutes from "./Kanbas/courses/routes.js";
 import ModuleRoutes from "./Kanbas/modules/routes.js";
 import QuizzesRoutes from "./Kanbas/quizzes/routes.js";
 import QuestionsRoutes from "./Kanbas/questions/routes.js";
+import AnswersRoutes from "./Kanbas/answers/routes.js";
 import cors from "cors";
 import AssignmentRoutes from "./Kanbas/assignments/routes.js";
 
 const CONNECTION_STRING =
-  process.env.DB_CONNECTION_STRING ||
-  "mongodb://127.0.0.1:27017/kanbas-project";
+  process.env.DB_CONNECTION_STRING || "mongodb://127.0.0.1:27017/kanbas";
 mongoose.connect(CONNECTION_STRING);
 const app = express();
 app.use(

@@ -61,3 +61,12 @@ export const bulkCreateQuestions = async (quizId, questions) => {
   );
   return [...updateQuestions, ...createdQuestions];
 };
+
+export const deleteQuestion = async (questionId) => {
+  const question = await model.findById(questionId);
+  await QuizModel.updateOne(
+    { _id: question.quiz },
+    { $pull: { questions: questionId }, $inc: { points: -question.points } }
+  );
+  return model.deleteOne({ _id: questionId });
+};
